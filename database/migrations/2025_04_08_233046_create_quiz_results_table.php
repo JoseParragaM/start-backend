@@ -16,7 +16,7 @@ return new class extends Migration
             $table->unsignedInteger('id_user');
             $table->dateTime('completion_date')->nullable();
             $table->integer('total_score')->default(0);
-            $table->string('loc_obtained', 20)->nullable();
+            $table->string('loe_obtained', 20)->nullable();
             $table->softDeletes();
             $table->timestamps();
 
